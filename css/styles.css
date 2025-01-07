@@ -1,0 +1,437 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+/* .borde {
+    border: blue 1px solid;
+} */
+/* ----------------------------BODY INTEGRANTES-------------------BODY INTEGRANTES--------------BODY INTEGRANTES */
+#bodyIntegrantes {
+    display: grid;
+    grid-template-areas: 
+    "header   header   header"
+    "titulo   titulo   titulo"
+    "main     main     aside "
+    "main     main     aside "
+    "main     main     aside "
+    "footer   footer   footer "
+    ;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1fr);
+    background-color: black;
+    border:#0C101D 80px solid;
+    row-gap: 5px;    
+    column-gap: 5px;
+    min-height: 100vh;
+}
+/* ----------------------------BODY CONTACTO-------------------BODY CONTACTO----------------------BODY CONTACTO */
+#bodyContacto {
+    display: grid;
+    grid-template-areas: 
+    "header         header "
+    "sectionCon     sectionCon"
+    "mainContacto   mainContacto"
+    "footer         footer "    
+    ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:repeat(1fr) ;
+    background-color: black;
+    border:#0C101D 80px solid;
+    row-gap: 5px;
+    column-gap: 5px;
+    min-height: 100vh;
+}
+/*--------------------------BODY DISCOGRAFIA---------------------BODY DISCOGRAFIA------------------BODY DISCOGRAFIA----- */
+#bodyImagenes {
+    background-color: black;
+    border: #0C101D 80px solid;
+    min-height: 100vh;
+    
+/*--------------------------BODY INDEX---------------------BODY INDEX------------------BODY INDEX----- */
+}
+#bodyIndex {
+    background-color: black;
+    border: #0C101D 80px solid;
+    min-height: 100vh;
+    
+}
+
+/*--------------------------BODY TIME LINE---------------------BODY TIME LINE------------------BODY TIME LINE----- */
+#bodyTime {
+    background-color: black;
+    border: #0C101D 80px solid;
+    min-height: 100vh;
+    
+}
+
+/* ----------------HEADER--------------------HEADER-------------HEADER--------------HEADER----------------- */
+#header {
+    grid-area: header;
+    display:flex;
+    background-color: #0081ff;
+    height: 82px;
+    font-family:"Roboto", serif;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#header img {
+    height: 80px;
+}
+
+#nav a {
+    color:black;
+}
+
+#nav ul {
+    display: flex;
+    column-gap: 150px;    
+}
+/* ----------------HEADERIMG--------------------HEADERIMG-------------HEADERIMG--------------HEADERIMG----------------- */
+#divImg {
+    column-gap: 10px;
+    /* background-color: red; */
+    background-color: #0081ff;
+}
+
+#divImg img {
+    height: 80px;
+    width: auto;
+}
+
+#navImg{
+    height: 100px;
+    /* color: tomato; */
+    /* background-color: red; */
+}
+
+#navbarNav {
+    font-family:  "Roboto", serif;
+    justify-content: space-around;
+    /* font-size: 10px; */
+}
+
+#navbarNav ul {
+    column-gap: 80px;
+}
+.navbar {
+    background-color:#0081ff !important;
+}
+
+#navbarNav a{
+    color: black;
+    font-weight: 400;
+    font-size:20px;
+}
+
+.nav-item a:hover {
+    /* text-decoration: underline; */
+    background-color:white;
+    border-radius: 3%;
+}
+/* ----------------MAINIMG--------------------MAINIMG-------------MAINIMG--------------MAINIMG----------------- */
+/* #imagenes {
+    background-color: red;
+    display:flex;
+    justify-content: space-around;
+} */
+
+#mainCard {
+    background-color: black;
+}
+.card-body {
+    background-color:#041F3A;
+    color: aliceblue;
+    /* border: black 1px solid; */
+}
+
+#iconsB {
+    display: flex;
+    justify-content:space-around;
+    background-color: #E9EDDE ;
+    border-radius: 3%;
+}
+
+.bi-spotify{
+    color:#1DB954;
+    font-size: 40px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+}
+
+.bi-youtube {
+    color: #ff0000;
+    font-size: 40px;
+    /* display: flex; */
+}
+
+.bi-apple {
+    color: #000000;
+    font-size: 40px;
+}
+/* ----------------TITULO--------------------TITULO-------------TITULO--------------TITULO----------------- */
+#titulo {
+    grid-area: titulo;
+    display: grid;
+    /* align-items: center; */
+    justify-content: center;
+    /* flex-direction: column; */
+    /* grid-template-areas: 
+    "section9 section9"
+    ; */
+    width: auto;
+    height: 95px;
+    border: red 5px solid;
+}
+
+#titulo img {
+    width: 53%;
+    height: 53%;
+    object-fit:contain;
+    justify-self: center;
+    /* align-items: center; */
+}
+
+/* ----------------MAIN--------------------MAIN---------------------MAIN--------------MAIN----------------- */
+#main {
+    grid-area: main;
+    display: grid;
+    grid-template-areas: 
+    "section1 section2 section3"
+    ;
+    font-family:"Roboto", serif;
+    background-color: black;
+    color: #ff8000;
+    /* border: #0081ff 3px solid; */
+    border-radius: 1%;
+}
+
+#cerati {
+    grid-area: section1;
+    border: #0081ff 3px solid;
+}
+
+#bosio {
+    grid-area: section2;
+    border: #0081ff 3px solid;
+}
+
+#alberti {
+    grid-area: section3;
+    border: #0081ff 3px solid;
+}
+/* ----------------MAIN INDEX--------------------MAIN INDEX---------------------MAIN INDEX--------------MAIN INDEX----------------- */
+/* #mainIndex { */
+/* background-image: url(https://cdn.wegow.com/media/artist-media/soda-stereo/soda-stereo-1688979901-1688979901.7064676.-1x2560.jpg); */
+/* background-image: url(https://www.lifeboxset.com/wp-content/uploads/2019/10/20191003_165457200984-image5d961dea1b450.jpg); */
+/* background-image: url(https://fmrockandpop.com/media/k2/items/cache/97b69b9f7e1a5c5d4d0fd3d24f506fa4_L.webp?t=20210430_145622); */
+/* min-height: 100vh; */
+/* background-repeat: no-repeat; */
+/* background-position: center center; */
+/* height: 600px; */
+/* background-size:cover; */
+/* background-attachment:local; */
+/* } */
+#mainIndex {
+    display: flex;
+    justify-content:center;
+}
+
+/* ----------------SECTION CONTACTO--------------------SECTION CONTACTO---------------------SECTION CONTACTO------------ */
+#sectionCon {
+    grid-area: sectionCon;
+    display: grid;
+    justify-content:space-around;
+    width:auto;
+    height: 95px;
+    border: red 5px solid;
+}
+
+#sectionCon img {
+    width: 53%;
+    height: 53%;
+    object-fit:contain;
+    justify-self: center;
+    align-items: center;
+}
+/* ------MAIN TIME LINE--------------MAIN TIME LINE-------------MAIN TIME LINE-------MAIN TIME LINE-------------------- */
+
+
+#navbar-example2 {
+    background-color:#CDEAFA !important ;
+}
+
+
+.scrollspy-example {
+    background-color: white !important;
+    /* display: flex; */
+    /* flex-wrap:nowrap; */
+    /* justify-content: space-around; */
+    /* column-gap: 1px; */
+}
+.scrollspy-example p {
+    text-align:justify;
+ }
+
+ #inicio {
+    background-color:whitesmoke;
+    border-radius: 5px;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+#inicio a {
+    text-decoration: none;
+    text-align:start;
+    align-items: center;
+}
+
+#contrato {
+
+    background-color: white;
+}
+
+
+
+
+
+/* ----------------MAIN CONTACTO--------------------MAIN CONTACTO---------------------MAIN CONTACTO------------ */
+#mainContacto {
+    grid-area: mainContacto;
+    display: grid;
+    grid-template-areas: 
+    "section1   section2"
+    ;
+}
+
+#mapa {
+    /* display: grid; */
+    /* grid-area: section1; */
+    justify-self: flex-start;
+    background-color: #1F3847;
+    height:min-content;
+}
+
+/* #mainContacto iframe {
+    min-height:fit-content;
+} */
+
+#mainContacto p {
+    display: flex;
+    color: aliceblue;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+    height: fit-content;
+}
+
+#mainContacto i {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#formulario {
+    display: flex;
+    grid-area: section2;
+    background-color:#011936;
+    color:white;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+#formulario textarea {
+    display: flex;
+    background-color: wheat;
+    width: 500px;
+    height: 100px;
+}
+
+#formulario button {
+    color: white;
+    /* font-size: 25px; */
+    font-size: larger;
+
+}
+
+.mb-3 input{
+    display: inline-block;
+    /* display: flex; */
+    background-color:wheat;
+    border:black 2px solid;
+}
+
+
+/* - ASIDE INTEGRANTES---------------- ASIDE INTEGRANTES----------- ASIDE INTEGRANTES--------------------------- */
+#aside {
+    grid-area: aside;
+    display: grid;
+    grid-template-areas: 
+    "section4 section5 section6"
+    ;
+    border: #ff8000 3px solid;
+}
+
+#aside img {
+    width: 100%;
+    height: 100%;
+    object-fit:none;
+}
+
+p {
+    text-align:start;
+    text-indent: 6em;
+}
+/* ----------------FOOTER---------------------FOOTER--------------FOOTER---------------FOOOTER----------------- */
+#footer {
+    grid-area: footer;
+    /* display: flex; */
+    /* justify-content: space-around;
+    flex-direction:column-reverse; */
+    font-family:"Roboto", serif;
+    background-color: #ff8000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer.navbar {
+    background-color: #ff8000 !important;
+}
+
+#footer ul {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+   
+}
+
+#footer li a {
+    color: black;
+}
+
+#footerRedes {
+    display: flex;
+    column-gap: 20px;
+}
+
+article h5 {
+    display: flex;
+    justify-content: space-around;
+}
+
+i {
+    font-size: 35px;
+    color:#040A1E;
+}
+
+
