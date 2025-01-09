@@ -273,7 +273,7 @@ li {
 
 
 .scrollspy-example {
-    background-color: white !important;
+    background-color: #B5CFC3 !important;
     display: flex;
     /* flex-wrap:nowrap; */
     justify-content: space-around;
@@ -281,6 +281,12 @@ li {
 }
 .scrollspy-example p {
     text-align:justify;
+ }
+
+ #intro {
+    padding: 5px;
+    background-color: #B5CFC3;
+    border-radius: 5px;
  }
 
  #inicio {
@@ -300,7 +306,7 @@ li {
 #debut {
     padding: 5px;
     text-decoration: none;
-    background-color: white;
+    background-color:#B5CFC3;
     border-radius: 5px;
 }
 
