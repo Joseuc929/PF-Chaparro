@@ -267,15 +267,16 @@ li {
 
 
 #navbar-example2 {
-    background-color:#CDEAFA !important ;
+    background-color:#076873 !important ;
+    position:static;
 }
 
 
 .scrollspy-example {
     background-color: white !important;
-    /* display: flex; */
+    display: flex;
     /* flex-wrap:nowrap; */
-    /* justify-content: space-around; */
+    justify-content: space-around;
     /* column-gap: 1px; */
 }
 .scrollspy-example p {
@@ -283,6 +284,7 @@ li {
  }
 
  #inicio {
+    padding: 5px;
     background-color:whitesmoke;
     border-radius: 5px;
     /* display: flex;
@@ -295,9 +297,26 @@ li {
     align-items: center;
 }
 
-#contrato {
-
+#debut {
+    padding: 5px;
+    text-decoration: none;
     background-color: white;
+    border-radius: 5px;
+}
+
+#debut p {
+    text-align: justify;
+}
+#primerDisco {
+    padding: 5px;
+    text-decoration: none;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+#primerDisco p {
+    text-align:justify;
+
 }
 
 
