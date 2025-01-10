@@ -322,9 +322,37 @@ li {
 
 #primerDisco p {
     text-align:justify;
-
 }
 
+#segundoAlbum {
+    padding: 5px;
+    background-color: #B5CFC3;
+    border-radius: 5px;
+}
+
+#giras {
+    padding: 5px;
+    text-decoration: none;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+#sodamania {
+    padding: 5px;
+    background-color: #B5CFC3;
+    border-radius: 5px;
+}
+
+#sodamania p {
+    text-align: justify;
+}
+
+#dobleVida {
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+
+}
 
 
 
