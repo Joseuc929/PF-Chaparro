@@ -14,75 +14,98 @@
         <link rel="stylesheet" href="../css/styles.css">
         <title>Contacto</title>
     </head>
+    
     <body id="bodyContacto">
-        
+<!--         
         <header id="header" class="borde">
             <img src="../icons/logo2 - copia.jpg" alt="">
             <nav id="nav" class="borde">
                 <ul>
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="integrantes.html">Integrantes</a></li>
-                    <li><a href="timeLine.html">Time Line</a></li>
+                    <li><a href="timeLine.html">Timeline</a></li>
                     <li><a href="discografia.html">Discografía</a></li>
                     <li><a href="#">Contacto</a></li>
                 </ul>
             </nav>
-        </header>
+        </header> -->
+
+        <header id="headerImg">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div id="divImg" class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                  <img  src="../icons/logo2 - copia.jpg" alt="Logo" width="100" height="100" class="d-inline-block align-text-top"></a>
+                  
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <button type="button" class="btn btn-warning">
+                          <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+      
+                        </button>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="integrantes.html">Integrantes</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Timeline</a>
+                    </li> 
+                    <li class="nav-item">
+                      <a class="nav-link" href="discografia.html">Discografía</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </header>
 
         <section id="sectionCon" class="borde">
             <img src="../icons/logo.jpg" alt="">
         </section>
         
-        <main id="mainContacto" class="borde">
 
-        <section id="mapa" class="borde">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.51141489705!2d-74.107807!3d4.64829755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1733071460938!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <br>                                    
-                    <p><i class="fa-solid fa-location-dot"></i> Parque Nacional Calle 7 # 13, Bogotá</p>
-                    <!-- <br> -->
-                    <p><i class="fa-solid fa-phone"></i> +57 3005591791</p>
-                    <!-- <br> -->
-                    <p><i class="fa-solid fa-envelope"></i> Desarrollo.com.co</p>
-        </section>
-        <section id="formulario">
+        <main id="contacto">
+            <section class="container-fluid">
+                <section class="row">
+                    <iframe class="col-md-6" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.51141489705!2d-74.107807!3d4.64829755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1733071460938!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            <div class="mb-3">
-                <label for="formGroupExampleInput" class="form-label">Nombres</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombres">
-              </div>
-              <div class="mb-3">
-                <label for="formGroupExampleInput2" class="form-label">Apellidos</label>
-                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Apellidos">
-              </div>
-              <div class="mb-3">
-                <label for="formGroupExampleInput2" class="form-label">Dirección</label>
-                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Dirección">
-              </div>
-              <div class="mb-3">
-                  <label for="formGroupExampleInput2" class="form-label">Celular</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Celular">
-                </div>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput2" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Email">
-                </div>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput2" class="form-label">País</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="País">
-                </div>
-                <div>
-                    <label for="formGroupExampleInput2" class="form-label">Comentarios</label>
-                    <textarea name="" id=""></textarea>
-                    <br>
-                    <button type="button" class="btn btn-outline-success">Enviar Comentarios</button>
-                </div>
-                <div>
-                    
-                </div>
-              
-        </section>
-        </main>        
-
+                    <section id="form" class="col-md-6">
+                        <section class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Nombres completos</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            <label for="exampleFormControlInput1" class="form-label">Dirección</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            <label for="exampleFormControlInput1" class="form-label">Celular</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            <label for="exampleFormControlInput1" class="form-label">País</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            <label for="exampleFormControlInput1" class="form-label">Correo Eletronico</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            <section class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </section><hr>
+                          
+                        </section>
+                        
+                    </section>
+                </section>
+                <section id="datos" class="col-md-12">
+                    <p><br><i class="fa-solid fa-phone"></i> +57 3005591791</p>
+                    <p><br><i class="fa-solid fa-location-dot"></i> Parque Nacional Calle 7 # 13, Bogotá</p>
+                    <p><br><i class="fa-solid fa-envelope"></i> Desarrollo.com.co</p>
+                </section>               
+            </section>
+        </main>
+        
+      
     <footer id="footer" class="borde">
         <section class="footerLogo">
             <i class="fa-solid fa-music"></i>
@@ -92,7 +115,7 @@
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="integrantes.html">Integrantes</a></li>
-                <li><a href="timeLine.html">Time Line</a></li>
+                <li><a href="timeLine.html">Timeline</a></li>
                 <li><a href="discografia.html">Discografía</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>

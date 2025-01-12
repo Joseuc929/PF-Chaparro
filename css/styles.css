@@ -33,7 +33,10 @@ li {
 }
 /* ----------------------------BODY CONTACTO-------------------BODY CONTACTO----------------------BODY CONTACTO */
 #bodyContacto {
-    display: grid;
+    background-color: black;
+    border: #0C101D 80px solid;
+    min-height: 100vh;
+    /* display: grid;
     grid-template-areas: 
     "header         header "
     "sectionCon     sectionCon"
@@ -46,7 +49,7 @@ li {
     border:#0C101D 80px solid;
     row-gap: 5px;
     column-gap: 5px;
-    min-height: 100vh;
+    min-height: 100vh; */
 }
 /*--------------------------BODY DISCOGRAFIA---------------------BODY DISCOGRAFIA------------------BODY DISCOGRAFIA----- */
 #bodyImagenes {
@@ -268,96 +271,60 @@ li {
 
 #navbar-example2 {
     background-color:#076873 !important ;
-    position:static;
+    /* position:static; */
 }
 
+#navbar-example2 i {
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}
+.nav-link {
+    color: white;
+}
 
 .scrollspy-example {
     background-color: #B5CFC3 !important;
     display: flex;
-    /* flex-wrap:nowrap; */
     justify-content: space-around;
-    /* column-gap: 1px; */
 }
 .scrollspy-example p {
     text-align:justify;
  }
 
- #intro {
+ #ladoA {
     padding: 5px;
     background-color: #B5CFC3;
     border-radius: 5px;
- }
+}
 
- #inicio {
+#ladoA P {
+    text-align: justify;
+}
+
+#ladoB {
     padding: 5px;
     background-color:whitesmoke;
     border-radius: 5px;
-    /* display: flex;
-    justify-content: space-around; */
 }
 
-#inicio a {
-    text-decoration: none;
-    text-align:start;
-    align-items: center;
-}
-
-#debut {
-    padding: 5px;
-    text-decoration: none;
-    background-color:#B5CFC3;
-    border-radius: 5px;
-}
-
-#debut p {
+#ladoB p {
     text-align: justify;
 }
-#primerDisco {
-    padding: 5px;
-    text-decoration: none;
-    background-color: whitesmoke;
-    border-radius: 5px;
-}
-
-#primerDisco p {
-    text-align:justify;
-}
-
-#segundoAlbum {
-    padding: 5px;
-    background-color: #B5CFC3;
-    border-radius: 5px;
-}
-
-#giras {
-    padding: 5px;
-    text-decoration: none;
-    background-color: whitesmoke;
-    border-radius: 5px;
-}
-
-#sodamania {
-    padding: 5px;
-    background-color: #B5CFC3;
-    border-radius: 5px;
-}
-
-#sodamania p {
-    text-align: justify;
-}
-
-#dobleVida {
-    padding: 5px;
-    background-color: whitesmoke;
-    border-radius: 5px;
-
-}
-
-
-
 
 /* ----------------MAIN CONTACTO--------------------MAIN CONTACTO---------------------MAIN CONTACTO------------ */
+
+#form {
+    background-color: #13287F;
+}
+
+#datos {
+    background-color: aliceblue;
+}
+
+
 #mainContacto {
     grid-area: mainContacto;
     display: grid;
