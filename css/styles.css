@@ -268,7 +268,6 @@ li {
 }
 /* ------MAIN TIME LINE--------------MAIN TIME LINE-------------MAIN TIME LINE-------MAIN TIME LINE-------------------- */
 
-
 #navbar-example2 {
     background-color:#076873 !important ;
     /* position:static; */
@@ -300,7 +299,7 @@ li {
     border-radius: 5px;
 }
 
-#ladoA P {
+#ladoA p {
     text-align: justify;
 }
 
@@ -322,70 +321,6 @@ li {
 
 #datos {
     background-color: aliceblue;
-}
-
-
-#mainContacto {
-    grid-area: mainContacto;
-    display: grid;
-    grid-template-areas: 
-    "section1   section2"
-    ;
-}
-
-#mapa {
-    /* display: grid; */
-    /* grid-area: section1; */
-    justify-self: flex-start;
-    background-color: #1F3847;
-    height:min-content;
-}
-
-/* #mainContacto iframe {
-    min-height:fit-content;
-} */
-
-#mainContacto p {
-    display: flex;
-    color: aliceblue;
-    justify-content: flex-start;
-    /* align-items: flex-start; */
-    height: fit-content;
-}
-
-#mainContacto i {
-    color: aliceblue;
-    font-size: 20px;
-}
-
-#formulario {
-    display: flex;
-    grid-area: section2;
-    background-color:#011936;
-    color:white;
-    flex-wrap:wrap;
-    justify-content: space-around;
-}
-
-#formulario textarea {
-    display: flex;
-    background-color: wheat;
-    width: 500px;
-    height: 100px;
-}
-
-#formulario button {
-    color: white;
-    /* font-size: 25px; */
-    font-size: larger;
-
-}
-
-.mb-3 input{
-    display: inline-block;
-    /* display: flex; */
-    background-color:wheat;
-    border:black 2px solid;
 }
 
 
