@@ -17,7 +17,6 @@ li {
   background-color: black;
   border: #0C101D 80px solid;
   min-height: 100vh;
-  background-image: url(../icons/logo2.jpg);
 }
 
 /*--------------------------BODY INTEGRANTES---------------------BODY INTEGRANTES------------------BODY INTEGRANTES----- */
@@ -147,7 +146,6 @@ li {
   width: auto;
   height: 95px;
   border: red 5px solid;
-  background-color: black;
 }
 
 #sectionCon img {
@@ -156,6 +154,48 @@ li {
   object-fit: contain;
   justify-self: center;
   align-items: center;
+}
+
+/* ----------------MAIN-DISCOGRAFIA--------------------MAIN-DISCOGRAFIA-------------MAIN-DISCOGRAFIA----------------- */
+/* #imagenes {
+    background-color: red;
+    display:flex;
+    justify-content: space-around;
+} */
+#mainCard {
+  background-color: black;
+}
+
+.card-body {
+  background-color: #041F3A;
+  color: aliceblue;
+  /* border: black 1px solid; */
+}
+
+#iconsB {
+  display: flex;
+  justify-content: space-around;
+  background-color: #E9EDDE;
+  border-radius: 3%;
+}
+
+.bi-spotify {
+  color: #1DB954;
+  font-size: 40px;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
+}
+
+.bi-youtube {
+  color: #ff0000;
+  font-size: 40px;
+  /* display: flex; */
+}
+
+.bi-apple {
+  color: #000000;
+  font-size: 40px;
 }
 
 /* ----------------MAIN--------------------MAIN---------------------MAIN--------------MAIN----------------- */
@@ -173,24 +213,10 @@ li {
 /* } */
 #mainIndex {
   display: flex;
-  justify-self: center;
-}
-
-/* ----------------MAIN INTEGRANTES--------------------MAIN INTEGRANTES---------------------MAIN INTEGRANTES------------ */
-#integrantes {
-  background-color: whitesmoke;
-  padding: 10px;
-}
-
-.accordion-button {
-  background-color: #507C7C;
+  justify-content: center;
 }
 
 /* ------MAIN TIME LINE--------------MAIN TIME LINE-------------MAIN TIME LINE-------MAIN TIME LINE-------------------- */
-#timeLine {
-  background-color: whitesmoke;
-}
-
 #navbar-example2 {
   background-color: #076873 !important;
   /* position:static; */
@@ -238,43 +264,6 @@ li {
   text-align: justify;
 }
 
-/* ----------------MAIN-DISCOGRAFIA--------------------MAIN-DISCOGRAFIA-------------MAIN-DISCOGRAFIA----------------- */
-#mainCard {
-  background-color: black;
-}
-
-.card-body {
-  background-color: #041F3A;
-  color: aliceblue;
-  /* border: black 1px solid; */
-}
-
-#iconsB {
-  display: flex;
-  justify-content: space-around;
-  background-color: #E9EDDE;
-  border-radius: 3%;
-}
-
-.bi-spotify {
-  color: #1DB954;
-  font-size: 40px;
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* justify-content: center; */
-}
-
-.bi-youtube {
-  color: #ff0000;
-  font-size: 40px;
-  /* display: flex; */
-}
-
-.bi-apple {
-  color: #000000;
-  font-size: 40px;
-}
-
 /* ----------------MAIN CONTACTO--------------------MAIN CONTACTO---------------------MAIN CONTACTO------------ */
 #form {
   background-color: #13287F;
@@ -282,6 +271,25 @@ li {
 
 #datos {
   background-color: aliceblue;
+}
+
+/* - ASIDE INTEGRANTES---------------- ASIDE INTEGRANTES----------- ASIDE INTEGRANTES--------------------------- */
+#aside {
+  grid-area: aside;
+  display: grid;
+  grid-template-areas: "section4 section5 section6";
+  border: #ff8000 3px solid;
+}
+
+#aside img {
+  width: 100%;
+  height: 100%;
+  object-fit: none;
+}
+
+p {
+  text-align: start;
+  text-indent: 6em;
 }
 
 /* ----------------FOOTER---------------------FOOTER--------------FOOTER---------------FOOOTER----------------- */
@@ -328,4 +336,4 @@ i {
   color: #040A1E;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=syles.css.map */
