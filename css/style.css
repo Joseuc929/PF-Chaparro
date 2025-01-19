@@ -116,29 +116,6 @@ li {
   border-radius: 3%;
 }
 
-/* ----------------TITULO--------------------TITULO-------------TITULO--------------TITULO----------------- */
-#titulo {
-  grid-area: titulo;
-  display: grid;
-  /* align-items: center; */
-  justify-content: center;
-  /* flex-direction: column; */
-  /* grid-template-areas: 
-  "section9 section9"
-  ; */
-  width: auto;
-  height: 95px;
-  border: red 5px solid;
-}
-
-#titulo img {
-  width: 53%;
-  height: 53%;
-  object-fit: contain;
-  justify-self: center;
-  /* align-items: center; */
-}
-
 /* ----------------SECTION CONTACTO--------------------SECTION CONTACTO---------------------SECTION CONTACTO------------ */
 #sectionCon {
   grid-area: sectionCon;
@@ -147,7 +124,7 @@ li {
   width: auto;
   height: 95px;
   border: red 5px solid;
-  background-color: black;
+  background-color: red;
 }
 
 #sectionCon img {
