@@ -1,25 +1,16 @@
-/* ----------------HEADERIMG--------------------HEADERIMG-------------HEADERIMG--------------HEADERIMG----------------- */
-#divImg {
-    column-gap: 10px;
-    /* background-color: red; */
-    background-color: #0081ff;
-}
-
 #divImg img {
     height: 80px;
     width: auto;
 }
 
-#navImg{
-    height: 100px;
-    /* color: tomato; */
-    /* background-color: red; */
-}
-
 #navbarNav {
-    font-family:  "Roboto", serif;
-    justify-content: space-around;
-    /* font-size: 10px; */
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  justify-content: space-around;
 }
 
 #navbarNav ul {
@@ -38,7 +29,7 @@
 .nav-item a:hover {
     /* text-decoration: underline; */
     background-color:white;
-    border-radius: 3%;
+    border-radius: 2%;
 }
 
 /* ----------------SECTION CONTACTO--------------------SECTION CONTACTO---------------------SECTION CONTACTO------------ */
