@@ -1,44 +1,4 @@
-
-/* ----------------MAIN--------------------MAIN---------------------MAIN--------------MAIN----------------- */
-// #main {
-//     grid-area: main;
-//     display: grid;
-//     grid-template-areas: 
-//     "section1 section2 section3"
-//     ;
-//     font-family:"Roboto", serif;
-//     background-color: black;
-//     color: #ff8000;
-//     /* border: #0081ff 3px solid; */
-//     border-radius: 1%;
-// }
-
-// #cerati {
-//     grid-area: section1;
-//     border: #0081ff 3px solid;
-// }
-
-// #bosio {
-//     grid-area: section2;
-//     border: #0081ff 3px solid;
-// }
-
-// #alberti {
-//     grid-area: section3;
-//     border: #0081ff 3px solid;
-// }
 /* ----------------MAIN INDEX--------------------MAIN INDEX---------------------MAIN INDEX--------------MAIN INDEX----------------- */
-/* #mainIndex { */
-/* background-image: url(https://cdn.wegow.com/media/artist-media/soda-stereo/soda-stereo-1688979901-1688979901.7064676.-1x2560.jpg); */
-/* background-image: url(https://www.lifeboxset.com/wp-content/uploads/2019/10/20191003_165457200984-image5d961dea1b450.jpg); */
-/* background-image: url(https://fmrockandpop.com/media/k2/items/cache/97b69b9f7e1a5c5d4d0fd3d24f506fa4_L.webp?t=20210430_145622); */
-/* min-height: 100vh; */
-/* background-repeat: no-repeat; */
-/* background-position: center center; */
-/* height: 600px; */
-/* background-size:cover; */
-/* background-attachment:local; */
-/* } */
 #mainIndex {
     display: flex;
     justify-self: center;
@@ -147,4 +107,16 @@
 #datos {
     background-color: aliceblue;
 }
+
+/* #mainIndex { */
+/* background-image: url(https://cdn.wegow.com/media/artist-media/soda-stereo/soda-stereo-1688979901-1688979901.7064676.-1x2560.jpg); */
+/* background-image: url(https://www.lifeboxset.com/wp-content/uploads/2019/10/20191003_165457200984-image5d961dea1b450.jpg); */
+/* background-image: url(https://fmrockandpop.com/media/k2/items/cache/97b69b9f7e1a5c5d4d0fd3d24f506fa4_L.webp?t=20210430_145622); */
+/* min-height: 100vh; */
+/* background-repeat: no-repeat; */
+/* background-position: center center; */
+/* height: 600px; */
+/* background-size:cover; */
+/* background-attachment:local; */
+/* } */
 
