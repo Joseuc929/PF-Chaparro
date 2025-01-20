@@ -109,12 +109,19 @@ li {
 
 /* ----------------MAIN INTEGRANTES--------------------MAIN INTEGRANTES---------------------MAIN INTEGRANTES------------ */
 #integrantes {
-  background-color: whitesmoke;
+  background-color: #EDFBC1;
   padding: 10px;
 }
 
 .accordion-button {
   background-color: #19A6B3;
+  color: #000000;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-body {
+  border-radius: 2px;
 }
 
 /* ------MAIN TIME LINE--------------MAIN TIME LINE-------------MAIN TIME LINE-------MAIN TIME LINE-------------------- */
@@ -177,6 +184,7 @@ li {
 .card-body {
   background-color: #041F3A;
   color: aliceblue;
+  text-align: justify;
   /* border: black 1px solid; */
 }
 
