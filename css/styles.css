@@ -14,10 +14,9 @@ li {
 } */
 /*--------------------------BODY INDEX---------------------BODY INDEX------------------BODY INDEX----- */
 #bodyIndex {
-  background-color: black;
+  background-color: #A9B7C7;
   border: #0C101D 80px solid;
   min-height: 100vh;
-  background-image: url(../icons/logo2.jpg);
 }
 
 /*--------------------------BODY INTEGRANTES---------------------BODY INTEGRANTES------------------BODY INTEGRANTES----- */
@@ -122,11 +121,6 @@ li {
 
 .card-body {
   border-radius: 2px;
-}
-
-#integrantes img:focus {
-  height: 100px;
-  transition: all 2s;
 }
 
 /* ------MAIN TIME LINE--------------MAIN TIME LINE-------------MAIN TIME LINE-------MAIN TIME LINE-------------------- */
@@ -240,26 +234,17 @@ li {
 /* background-attachment:local; */
 /* } */
 /* ----------------FOOTER---------------------FOOTER--------------FOOTER---------------FOOOTER----------------- */
-#footer {
-  grid-area: footer;
-  /* display: flex; */
-  /* justify-content: space-around;
-  flex-direction:column-reverse; */
-  font-family: "Roboto", serif;
-  background-color: #ff8000;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
 #footer.navbar {
   background-color: #ff8000 !important;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto", serif;
+  align-items: center;
 }
 
 #footer ul {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
   font-size: 18px;
 }
