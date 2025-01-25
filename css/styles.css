@@ -1,3 +1,4 @@
+/*------SECCIONES----------*/
 * {
   padding: 0;
   margin: 0;
@@ -47,11 +48,7 @@ li {
   min-height: 100vh;
 }
 
-#divImg img {
-  height: 80px;
-  width: auto;
-}
-
+/* ----------------HEADER--------------------HEADER-------------HEADER--------------HEADER----------------- */
 #navbarNav {
   font-family: "Roboto", serif;
   font-optical-sizing: auto;
@@ -60,25 +57,26 @@ li {
   font-variation-settings: "wdth" 100;
   justify-content: space-around;
 }
-
 #navbarNav ul {
   column-gap: 30px;
 }
-
-.navbar {
-  background-color: #0081ff !important;
-}
-
 #navbarNav a {
   color: black;
   font-weight: 400;
   font-size: 20px;
 }
-
-.nav-item a:hover {
-  /* text-decoration: underline; */
+#navbarNav .nav-item a:hover {
+  text-decoration: underline;
   background-color: white;
   border-radius: 2%;
+}
+
+.navbar {
+  background-color: #0081ff !important;
+}
+.navbar #divImg img {
+  height: 80px;
+  width: auto;
 }
 
 /* ----------------SECTION CONTACTO--------------------SECTION CONTACTO---------------------SECTION CONTACTO------------ */
@@ -91,7 +89,6 @@ li {
   border: red 5px solid;
   background-color: black;
 }
-
 #sectionCon img {
   width: 53%;
   height: 53%;
@@ -108,70 +105,58 @@ li {
 
 /* ----------------MAIN INTEGRANTES--------------------MAIN INTEGRANTES---------------------MAIN INTEGRANTES------------ */
 #integrantes {
-  background-color: #EDFBC1;
+  background-color: #E0E0E0;
   padding: 10px;
 }
-
-.accordion-button {
+#integrantes .accordion-button {
   background-color: #19A6B3;
   color: #000000;
-  font-size: 20px;
+  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-.card-body {
+#integrantes .card-body {
   border-radius: 2px;
+  background-color: #041F3A;
 }
 
 /* ------MAIN TIME LINE--------------MAIN TIME LINE-------------MAIN TIME LINE-------MAIN TIME LINE-------------------- */
 #timeLine {
   background-color: whitesmoke;
 }
-
-#navbar-example2 {
-  background-color: #076873 !important;
-  /* position:static; */
-}
-
-#navbar-example2 i {
-  color: white;
-}
-
-.navbar-brand {
-  color: white;
-}
-
-.nav-link {
-  color: white;
-}
-
-.scrollspy-example {
-  background-color: #B5CFC3 !important;
-  display: flex;
-  justify-content: space-around;
-}
-
-.scrollspy-example p {
-  text-align: justify;
-}
-
-#ladoA {
+#timeLine #ladoA {
   padding: 15px;
   background-color: #B5CFC3;
   border-radius: 5px;
 }
-
-#ladoA p {
+#timeLine #ladoA p {
   text-align: justify;
 }
-
-#ladoB {
+#timeLine #ladoB {
   padding: 15px;
   background-color: whitesmoke;
   border-radius: 5px;
 }
-
-#ladoB p {
+#timeLine #ladoB p {
+  text-align: justify;
+}
+#timeLine #navbar-example2 {
+  background-color: #076873 !important;
+}
+#timeLine #navbar-example2 i {
+  color: white;
+}
+#timeLine #navbar-example2 .navbar-brand {
+  color: white;
+}
+#timeLine #navbar-example2 .nav-link {
+  color: white;
+}
+#timeLine .scrollspy-example {
+  background-color: #B5CFC3 !important;
+  display: flex;
+  justify-content: space-around;
+}
+#timeLine .scrollspy-example p {
   text-align: justify;
 }
 
@@ -179,36 +164,27 @@ li {
 #mainCard {
   background-color: black;
 }
-
-.card-body {
+#mainCard .card-body {
   background-color: #041F3A;
   color: aliceblue;
   text-align: justify;
   /* border: black 1px solid; */
 }
-
-#iconsB {
+#mainCard #iconsB {
   display: flex;
   justify-content: space-around;
   background-color: #E9EDDE;
   border-radius: 3%;
 }
-
-.bi-spotify {
+#mainCard .bi-spotify {
   color: #1DB954;
   font-size: 40px;
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* justify-content: center; */
 }
-
-.bi-youtube {
+#mainCard .bi-youtube {
   color: #ff0000;
   font-size: 40px;
-  /* display: flex; */
 }
-
-.bi-apple {
+#mainCard .bi-apple {
   color: #000000;
   font-size: 40px;
 }
@@ -241,31 +217,29 @@ li {
   font-family: "Roboto", serif;
   align-items: center;
 }
-
-#footer ul {
+#footer.navbar ul {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 18px;
 }
-
-#footer li a {
+#footer.navbar li a {
   color: black;
 }
-
-#footerRedes {
+#footer.navbar #footerRedes {
   display: flex;
-  column-gap: 20px;
+  column-gap: 10px;
 }
-
-article h5 {
+#footer.navbar article h5 {
   display: flex;
   justify-content: space-around;
+  font-size: 15px;
 }
-
-i {
+#footer.navbar i {
   font-size: 35px;
   color: #040A1E;
 }
+
+/*----------PAGES---------*/
 
 /*# sourceMappingURL=styles.css.map */

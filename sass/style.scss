@@ -1,6 +1,17 @@
-@import "reset";
-@import "body";
-@import "header";
-@import "main";
-@import "footer";
+/*------SECCIONES----------*/
+@import "secciones/reset";
+@import "secciones/body";
+@import "secciones/header";
+@import "secciones/main";
+@import "secciones/footer";
+
+
+/*----------PAGES---------*/
+@import "pages-sass/index";
+@import "pages-sass/contacto";
+@import "pages-sass/discografia";
+@import "pages-sass/integrantes";
+@import "pages-sass/timeLine";
+
+
 

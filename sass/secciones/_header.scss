@@ -1,0 +1,59 @@
+/* ----------------HEADER--------------------HEADER-------------HEADER--------------HEADER----------------- */
+#navbarNav {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    justify-content: space-around;
+    
+    ul {
+        column-gap: 30px;
+    }
+    
+    a{
+        color: black;
+        font-weight: 400;
+        font-size:20px;
+    }
+    
+    .nav-item a:hover {
+        text-decoration: underline;
+        background-color:white;
+        border-radius: 2%;
+    }
+    
+}
+
+.navbar {
+    background-color:#0081ff !important;
+    
+    #divImg img {
+        height: 80px;
+        width: auto;
+    }
+}
+
+/* ----------------SECTION CONTACTO--------------------SECTION CONTACTO---------------------SECTION CONTACTO------------ */
+#sectionCon {
+    grid-area: sectionCon;
+    display: grid;
+    justify-content:space-around;
+    width:auto;
+    height: 95px;
+    border: red 5px solid;
+    background-color:black;
+
+    img {
+        width: 53%;
+        height: 53%;
+        object-fit:contain;
+        justify-self: center;
+        align-items: center;
+    }
+
+}
+
+
+
+
