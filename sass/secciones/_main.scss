@@ -105,6 +105,40 @@
         font-size: 40px;
     }
 }
+/* ----------------MAIN-DISCOGRAFIA22222222--------------------MAIN-DISCOGRAFIA-------------MAIN-DISCOGRAFIA----------------- */
+#mainCard {
+    background-color: black;
+    
+    .card-body {
+        background-color:#041F3A;
+        color: aliceblue;
+        text-align:justify;
+        /* border: black 1px solid; */
+    }
+
+
+    #iconsB {
+        display: flex;
+        justify-content:space-around;
+        background-color: #E9EDDE ;
+        border-radius: 3%;
+    }
+
+    .bi-spotify{
+        color:#1DB954;
+        font-size: 40px;
+    }
+    
+    .bi-youtube {
+        color: #ff0000;
+        font-size: 40px;
+    }
+    
+    .bi-apple {
+        color: #000000;
+        font-size: 40px;
+    }
+}
 
 
 /* ----------------MAIN CONTACTO--------------------MAIN CONTACTO---------------------MAIN CONTACTO------------ */
