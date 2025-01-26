@@ -1,17 +1,19 @@
 /*------SECCIONES----------*/
-@import "secciones/reset";
-@import "secciones/body";
-@import "secciones/header";
-@import "secciones/main";
-@import "secciones/footer";
+@use "secciones/reset";
+@use "secciones/body";
+@use "secciones/header";
+@use "secciones/main";
+@use "secciones/footer";
+@use "secciones/animaciones";
+
 
 
 /*----------PAGES---------*/
-@import "pages-sass/index";
-@import "pages-sass/contacto";
-@import "pages-sass/discografia";
-@import "pages-sass/integrantes";
-@import "pages-sass/timeLine";
+@use "pages-sass/index";
+@use "pages-sass/contacto";
+@use "pages-sass/discografia";
+@use "pages-sass/integrantes";
+@use "pages-sass/timeLine";
 
 
 
