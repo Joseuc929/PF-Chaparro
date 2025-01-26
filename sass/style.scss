@@ -4,16 +4,16 @@
 @use "secciones/header";
 @use "secciones/main";
 @use "secciones/footer";
-@use "secciones/animaciones";
+
 
 
 
 /*----------PAGES---------*/
-// @use "pages-sass/index";
-// @use "pages-sass/contacto";
-// @use "pages-sass/discografia";
-// @use "pages-sass/integrantes";
-// @use "pages-sass/timeLine";
+@use "pages-sass/index";
+@use "pages-sass/contacto";
+@use "pages-sass/discografia";
+@use "pages-sass/integrantes";
+@use "pages-sass/timeLine";
 
 
 
