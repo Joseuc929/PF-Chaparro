@@ -1,12 +1,12 @@
-.animate__animated.animate__pulse:hover {
-    --animate-duration: 4s;
-  }
+// .animate__animated.animate__pulse {
+//     --animate-duration: 3s;
+//   }
   
-  /* This changes all the animations globally */
-  :root:hover {
-    --animate-duration: 3s;
-    --animate-delay: 0.9s;
-  }
+//   /* This changes all the animations globally */
+//   :root:hover {
+//     --animate-duration: 3s;
+//     --animate-delay: 0.9s;
+//   }
 
   .animate__animated.animate__fadeInDown {
     --animate-duration: 3s;
