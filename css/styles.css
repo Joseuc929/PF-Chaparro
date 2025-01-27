@@ -13,44 +13,9 @@ li {
 /* .borde {
     border: blue 1px solid;
 } */
-/*--------------------------BODY INDEX---------------------BODY INDEX------------------BODY INDEX----- */
-#bodyIndex {
+#body {
   background-color: #A9B7C7;
-  border: #0C101D 15px solid;
-  min-height: 100vh;
-}
-
-/*--------------------------BODY INTEGRANTES---------------------BODY INTEGRANTES------------------BODY INTEGRANTES----- */
-#bodyIntegrantes {
-  background-color: black;
-  border: #0C101D 15px solid;
-  min-height: 100vh;
-}
-
-/*--------------------------BODY TIME LINE---------------------BODY TIME LINE------------------BODY TIME LINE----- */
-#bodyTime {
-  background-color: black;
-  border: #0C101D 15px solid;
-  min-height: 100vh;
-}
-
-/*--------------------------BODY DISCOGRAFIA---------------------BODY DISCOGRAFIA------------------BODY DISCOGRAFIA----- */
-#bodyDiscografia {
-  background-color: black;
-  border: #0C101D 15px solid;
-  min-height: 100vh;
-}
-
-#bodyImagenes {
-  background-color: black;
-  border: #0C101D 15px solid;
-  min-height: 100vh;
-}
-
-/* ----------------------------BODY CONTACTO-------------------BODY CONTACTO----------------------BODY CONTACTO */
-#bodyContacto {
-  background-color: black;
-  border: #0C101D 15px solid;
+  border: #0C101D 10px solid;
   min-height: 100vh;
 }
 
