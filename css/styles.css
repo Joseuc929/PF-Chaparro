@@ -211,34 +211,42 @@ li {
 /* } */
 /* ----------------FOOTER---------------------FOOTER--------------FOOTER---------------FOOOTER----------------- */
 #footer.navbar {
-  background-color: grey !important;
+  background-color: #232F3E !important;
   display: flex;
   justify-content: space-around;
   font-family: "Roboto", serif;
   align-items: center;
 }
-#footer.navbar ul {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  font-size: 18px;
-}
-#footer.navbar li a {
-  color: black;
-}
 #footer.navbar #footerRedes {
   display: flex;
-  column-gap: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 18px;
+  column-gap: 30px;
 }
-#footer.navbar article h5 {
+#footer.navbar #footerRedes i {
+  font-size: 35px;
+  color: #E6E6E6;
+}
+#footer.navbar ul {
   display: flex;
   justify-content: space-around;
-  font-size: 15px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  font-size: 18px;
+  column-gap: 30px;
 }
-#footer.navbar i {
-  font-size: 35px;
-  color: blue;
+#footer.navbar li a {
+  color: #E6E6E6;
+}
+#footer.navbar article h1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 15px;
+  color: white;
 }
 
 .animate__animated.animate__fadeInDown {
