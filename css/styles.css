@@ -216,7 +216,6 @@ li {
   justify-content: space-around;
   font-family: "Roboto", serif;
   align-items: center;
-  /* From Uiverse.io by portseif */
 }
 #footer.navbar #footerRedes {
   display: flex;
@@ -249,7 +248,9 @@ li {
   font-size: 15px;
   color: white;
 }
-#footer.navbar #boton {
+
+/* From Uiverse.io by portseif */
+#boton {
   align-items: center;
   background-color: transparent;
   color: #fff;
@@ -265,7 +266,8 @@ li {
   border: 0;
   padding: 1rem;
 }
-#footer.navbar #boton:before {
+
+#boton:before {
   background-color: #fff;
   content: "";
   display: inline-block;
@@ -274,7 +276,8 @@ li {
   transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
   width: 0;
 }
-#footer.navbar #boton:hover:before {
+
+#boton:hover:before {
   background-color: #fff;
   width: 3rem;
 }
