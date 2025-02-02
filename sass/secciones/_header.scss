@@ -12,26 +12,30 @@
     }
     
     a{
-        color: black;
+        color: #E6E6E6;
         font-weight: 400;
         font-size:20px;
     }
     
     .nav-item a:hover {
         text-decoration: underline;
-        background-color:white;
+        // background-color:white;
         border-radius: 2%;
     }
     
 }
 
 .navbar {
-    background-color:#0081ff !important;
+    background-color: #232F3E !important;
     
     #divImg img {
         height: 80px;
         width: auto;
     }
+}
+
+#buttonHeader {
+    background-color: #E6E6E6;
 }
 
 /* ----------------SECTION CONTACTO--------------------SECTION CONTACTO---------------------SECTION CONTACTO------------ */
@@ -53,7 +57,3 @@
     }
 
 }
-
-
-
-
