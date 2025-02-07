@@ -47,6 +47,7 @@
 
     #navbar-example2 {
         background-color:#076873 !important ;
+        flex-wrap: nowrap;
         
         i {
             color: white;
@@ -143,7 +144,8 @@
 
 /* ----------------MAIN CONTACTO--------------------MAIN CONTACTO---------------------MAIN CONTACTO------------ */
 #form {
-    background-color: #13287F;
+    background-color: #043D3A;
+    color: #E6E6E6;
 }
 
 #datos {
